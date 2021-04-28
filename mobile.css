@@ -62,10 +62,9 @@
     .h_1 li{
         padding: 10px 5px ;
     }
+    
     form{
         width: 70%;
-
-        
     }
     form p  {
         
@@ -87,7 +86,7 @@
         text-align: right;
     }
     aside h2 .fas{
-        margin-left: 140px;
+        margin-left: 124px;
     }
     aside h2 {
         margin-left: 16px;
