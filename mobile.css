@@ -71,7 +71,7 @@
         display: none;
     }
     form #icon a {
-        
+        display: inline;
         text-align: center;
         font-size: 20px;
         color: white;
@@ -80,6 +80,9 @@
     form #icon {
         width: 60px;
         margin-top: 10px;
+    }
+    .search strong{
+        display: none;
     }
     .h_1 ul{
         flex-direction: column;
