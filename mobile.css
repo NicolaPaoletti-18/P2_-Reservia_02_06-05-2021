@@ -1,0 +1,228 @@
+
+@font-face{
+    font-family:"Ralewey";
+    src:url(fonts/Raleway-Regular.ttf);
+    font-family: 'RalewayS';
+    src: url(fonts/Raleway-Medium.ttf);
+         
+}
+
+@media screen and (max-width: 768px){
+    /*css portable*/
+    .bloc_pages{
+        display: block;
+        width:100%;
+    }
+    h2{
+        margin-left: 15px;
+    }
+    nav {
+        width: 100%;
+        
+
+    }
+    nav ul{
+        
+        text-align: right;
+        font-size: 15px;
+    }
+    nav .mq{
+        display: none;
+    }
+    .caché{
+        width: 100%;
+        display: flex;
+        text-align:center;
+        
+    }    
+    .caché a{
+        width: 100%;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #F2F2F2 ;
+        text-decoration: none;
+        color: black;
+        font-family: "RelewaS";
+        font-size: 18px
+    }
+    .caché a:hover{
+        color: #0065FC;;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #0065FC;;
+        
+    }
+    .h_1{
+        width: auto;
+        
+        
+    }
+    .h_1 li{
+        padding: 10px 5px ;
+    }
+    form{
+        width: 70%;
+
+        
+    }
+    form p  {
+        
+        display: none;
+    }
+    form #icon a {
+        
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        
+    }
+    form #icon {
+        width: 60px;
+        margin-top: 10px;
+    }
+    .h_1 ul{
+        flex-direction: column;
+        text-align: right;
+    }
+    aside h2 .fas{
+        margin-left: 140px;
+    }
+    aside h2 {
+        margin-left: 16px;
+    }
+    section {
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-left: 10px;
+    }
+    .container{
+        flex-direction: column;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .container > li{
+        width: 90%;
+    }
+
+
+    .bloc_images{
+   width: 100%;
+   height: auto;
+   background-color: white;
+    }
+    .bloc_images > h2{
+        margin-left: -21px;
+    }
+    .bloc_images .griglia_images{
+    width: 100%;
+    display: inline-block;
+    margin-left: -30px;
+    }
+    .griglia_images >li{
+        display: flex;
+        flex-direction: column;
+       width: 90%;
+       margin-bottom: 40px;
+       box-shadow: 1px 1px 1px 1px whitesmoke;
+    }
+   .griglia_images > li img{
+       width: 100%;
+   }
+    
+    .griglia_images .icones{
+        margin-right: 338px;
+        display: flex;
+        margin-top: auto;
+    }
+    
+    aside{
+        width: 100%;
+        height: 100%;
+        margin-left: -10px;
+        border-radius: 0px 0px 0px 0px;
+        
+    }
+    .activites{
+        width: 100%;
+        flex-direction: column;
+        margin-left:-75px;
+    }
+     .images_act1{
+     width: 93%;
+     height: 172px;
+     
+     margin-left: 19%;
+     margin-bottom: 20px;
+     
+    }
+    .images_act1 img{
+        width: 99%;
+        height: 100px;
+       
+    }
+    .images_act1 img p{
+        text-align: center;
+    }
+    .images_act2{
+        width: 95%;
+    }
+    .images_act2 .border{
+        width: 99%;
+        height: 172px;
+        margin-left: 19%;
+    }
+    .images_act2 .border img{
+        width: 99%;
+        height: 100px;
+        text-align: start;
+        
+    }
+    .images_act2 .border1{
+        width: 100%;
+        height: 172px;
+        text-align: start;
+        margin-left: 19%;
+        margin-bottom: 20px;
+    }
+    .images_act2 .border1 img{
+        width: 99%;
+        height: 100px;
+        
+    }
+    .images_act4{
+        width: 95%;
+      
+        margin-left: 19%;
+    }
+    .images_act4 img{
+        width: 99%;
+        height: 100px;
+    }
+    .images_act5{
+        width: 95%;
+        
+        margin-left: 19%;
+        margin-top: 20px;
+    }
+    .images_act5 .border2 {
+        height: 185px;
+        width: 99%;
+    }
+    .images_act5 img{
+        width: 99%;
+        height: 100px;
+        text-align: center;
+    }
+    footer{
+        width: 100%;
+        
+    }
+    footer .Apropos {
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}
