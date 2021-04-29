@@ -122,8 +122,8 @@ border-radius: 15px 23px 0px 0px;
         margin-left: 0px;
         border-radius: 0px 0px 0px 0px;
     }
-    .bloc_images h2{
-        margin-left: 0px;
+    .bloc_images .h2{
+        margin-left: auto;
     }
     .griglia_images{
     display: flex;
@@ -135,6 +135,9 @@ border-radius: 15px 23px 0px 0px;
     }
     .griglia_images li img{
         width: 100%;
+    }
+    .activites{
+     margin-left: 20px;
     }
     
 }
