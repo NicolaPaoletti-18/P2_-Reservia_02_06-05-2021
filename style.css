@@ -26,9 +26,9 @@ header{
 .titolo{
   margin-top: auto;
   margin-bottom: 0px;
-  font-size: 15px;
+  font-size: 13px;
   
-  margin-left: 5px;
+  margin-left: opx;
 }
 p{ 
     font-size: small;
@@ -84,7 +84,7 @@ nav a:hover{
     display: none;
 }
 
-.h2{
+.h3{
     font-size: 20px;
     font-family:"RalewayS";
 }
@@ -214,6 +214,7 @@ form strong{
     padding-bottom: 10px;
 }
 /*======================== BODY ========================*/
+/*============= HEBERGEMENTS =============*/
 .bloc_images{
     background:#F2F2F2;
     width: 70%;
@@ -223,7 +224,7 @@ form strong{
     border-radius: 20px 20px 20px 20px;
     align-items: center;
 }
-.bloc_images .h2{
+.bloc_images .h3{
 margin-top: 20px;
 margin-left: 20px;
 margin-bottom: -5px;
@@ -298,7 +299,7 @@ margin-bottom: -5px;
 section{
     display: flex;
 }
-
+/*=============== PLUS POPOL ===============*/
 aside{
     
     margin-bottom:auto;
@@ -367,17 +368,17 @@ aside .container span{
     text-decoration: none;
     color: black;
 }
-aside .h2{
+aside .h3{
     margin-top: 40px;
     margin-left: 20px;
     margin-bottom: -10px;
     font-size: 20px;
     
 }
-aside .h2 .fas{
+aside .h3 .fas{
    margin-left: 80px;
 }
- 
+ /*================= ACTIVITES =================*/
 #Marseille .activites{
     display: flex;
 }

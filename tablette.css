@@ -4,6 +4,7 @@
         width: 768px;
         display: block;
     }
+    /*======================== HEADER ========================*/
     nav {
         width: 100%;
         
@@ -76,10 +77,12 @@
         width: 60px;
         margin-top: 10px;
     }
+    /*======================== BODY ========================*/
     section {
         width: 100%;
         flex-direction: column-reverse;
     }
+     /*============= PLUS POPOL =============*/
     aside{
         width: 100%;
         margin-left: 0px;
@@ -117,6 +120,7 @@ border-radius: 15px 23px 0px 0px;
     margin-right: 30px;    
     margin-left: 20px;
     }
+    /*============= HEBERGEMENTS =============*/
     .bloc_images{
         width: 98.5%;
         margin-left: 0px;
@@ -136,6 +140,7 @@ border-radius: 15px 23px 0px 0px;
     .griglia_images li img{
         width: 100%;
     }
+    /*================= ACTIVITES =================*/
     .activites{
      margin-left: 20px;
     }
