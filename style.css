@@ -156,26 +156,20 @@ form strong{
     
 }
 
-.h_1{
-    display: flex;
-    font-size: 20px;
-    margin-top:auto;
-    
-}
+
 
 .Filtres{
     margin-top: 10px;
-}
-.h_1 ul{
-    display: flex;
-    
-    text-decoration: none;
-    
-}
-.h_1 li {
+}    
+
+.h_1  {
     display: flex;
     font-family: "Releway";
     text-align: center;
+    font-size: 20px;
+    margin-top:20px;
+    padding-left: 40px;
+    padding-right: 30%;
     
 }
  .h_1 a{

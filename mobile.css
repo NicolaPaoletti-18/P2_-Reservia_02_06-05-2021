@@ -7,7 +7,7 @@
          
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
     /*css portable*/
     .bloc_pages{
         display: block;
@@ -84,7 +84,7 @@
     .search strong{
         display: none;
     }
-    .h_1 ul{
+    .h_1{
         flex-direction: column;
         text-align: right;
     }
