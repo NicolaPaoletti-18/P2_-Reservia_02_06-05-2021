@@ -92,7 +92,11 @@
    aside h2{
        margin-right: 120px;
    }
-    
+    aside .h3 .fas{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -20px;
+    }
     aside > .container {
         display: flex;
         justify-content: space-between;
