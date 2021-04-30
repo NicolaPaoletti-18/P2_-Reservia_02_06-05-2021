@@ -90,7 +90,25 @@
     }
     .h_1{
         flex-direction: column;
-        text-align: right;
+        text-align: center;
+    }
+    .h_1 a{
+        margin-left: -36px;
+        padding-right: 0;
+        margin-right: -18px;
+        width: 181px;
+        margin-top: 6px;
+    }
+    .h_1 .M3{
+        display: flex;
+    }
+    .h_1 strong{
+        margin-left: 0px;
+    }
+    .M3{
+       justify-content: end;
+       margin-top: -45px;
+       margin-right: -86px
     }
     /*======================== BODY ========================*/
     section {
@@ -99,10 +117,10 @@
         margin-left: 10px;
     }
     /*============= PLUS POPOL =============*/
-    aside .h2 .fas{
-        margin-left: 124px;
+    aside .h3 .fas{
+        margin-right: 40px;
     }
-    aside .h2 {
+    aside .h3 {
         margin-left: 16px;
     }
     
@@ -121,7 +139,7 @@
    height: auto;
    background-color: white;
     }
-    .bloc_images > .h2{
+    .bloc_images > .h3{
         margin-left: -21px;
     }
     .bloc_images .griglia_images{
@@ -159,18 +177,21 @@
         flex-direction: column;
         margin-left:-75px;
     }
+    .h3{
+        margin-left: 11px;
+    }
      .images_act1{
      width: 93%;
      height: 172px;
      
-     margin-left: 19%;
+     margin-left: 17%;
      margin-bottom: 20px;
      
     }
     .images_act1 img{
         width: 99%;
         height: 100px;
-       
+        max-width: 400px;
     }
     .images_act1 img p{
         text-align: center;
@@ -181,39 +202,36 @@
     .images_act2 .border{
         width: 99%;
         height: 172px;
-        margin-left: 19%;
+        margin-left: 17%;
     }
     .images_act2 .border img{
         width: 99%;
         height: 100px;
         text-align: start;
-        
+        max-width: 400px;
     }
     .images_act2 .border1{
         width: 100%;
         height: 172px;
         text-align: start;
-        margin-left: 19%;
+        margin-left: 17%;
         margin-bottom: 20px;
     }
-    .images_act2 .border1 img{
-        width: 99%;
-        height: 100px;
-        
-    }
+  
     .images_act4{
         width: 95%;
       
-        margin-left: 19%;
+        margin-left: 17%;
     }
     .images_act4 img{
         width: 99%;
         height: 100px;
+        max-width: 400px;
     }
     .images_act5{
         width: 95%;
         
-        margin-left: 19%;
+        margin-left: 17%;
         margin-top: 20px;
     }
     .images_act5 .border2 {
@@ -224,6 +242,7 @@
         width: 99%;
         height: 100px;
         text-align: center;
+        max-width: 400px;
     }
     /*================= FOOTER =================*/
     footer{
