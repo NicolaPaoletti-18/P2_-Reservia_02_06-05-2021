@@ -17,6 +17,9 @@
     h2{
         margin-left: 0px;
     }
+    h3{
+        font-size: 13px;
+    }
     .titolo{
         font-size: 12px;
     }
@@ -49,8 +52,8 @@
         border-bottom: 2px solid #F2F2F2 ;
         text-decoration: none;
         color: black;
-        font-family: "RelewaS";
-        font-size: 18px
+        font-family: "RalewayS";
+        font-size: 15px
     }
     .caché a:hover{
         color: #0065FC;;
@@ -96,7 +99,7 @@
         margin-left: -36px;
         padding-right: 0;
         margin-right: -18px;
-        width: 181px;
+        width: 166px;
         margin-top: 6px;
     }
     .h_1 .M3{
@@ -104,11 +107,12 @@
     }
     .h_1 strong{
         margin-left: 0px;
+        padding-left: 4px;
     }
     .M3{
-       justify-content: end;
-       margin-top: -45px;
-       margin-right: -86px
+       justify-content: flex-end;
+       margin-top: -46px;
+       margin-right: -93px
     }
     /*======================== BODY ========================*/
     section {
