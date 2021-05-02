@@ -127,6 +127,7 @@ form #icon a{
 form strong{
     margin-left: 28%;
     margin-right:auto;
+    font-family: 'RalewayS';
 }
 .localisation{
     display: flex;
