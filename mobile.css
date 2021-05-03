@@ -112,6 +112,13 @@
         margin-left: 10px;
     }
     /*============= PLUS POPOL =============*/
+    aside{
+        width: 100%;
+        height: 100%;
+        margin-left: -18px;
+        border-radius: 0px 0px 0px 0px;
+        
+    }
     aside .h3 .fas{
         margin-right: 40px;
     }
@@ -148,6 +155,7 @@
        width: 90%;
        margin-bottom: 40px;
        box-shadow: 1px 1px 1px 1px whitesmoke;
+       margin-left: 2%;
     }
    .griglia_images > li img{
        width: 90%;
@@ -160,18 +168,12 @@
         margin-top: auto;
     }
     
-    aside{
-        width: 100%;
-        height: 100%;
-        margin-left: 0px;
-        border-radius: 0px 0px 0px 0px;
-        
-    }
+   
     /*================= ACTIVITES =================*/
     .activites{
         width: 100%;
         flex-direction: column;
-        margin-left:0px;
+        
     }
     .h3{
         margin-left: 11px;
@@ -226,7 +228,6 @@
     }
     .images_act5{
         width: 95%;
-        
         
         margin-top: 20px;
     }
