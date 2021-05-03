@@ -83,10 +83,8 @@
     }
     .search .fas::before{
         display: block;
-       
        margin: auto;
        margin-left: 10px;
-      
         font-size: 20px;
     }
     .h_1 p{
@@ -127,6 +125,7 @@
     }
     .container > li{
         width: 90%;
+        max-width: 325px;
     }
 
 /*============= HEBERGEMENTS =============*/
@@ -147,12 +146,13 @@
         display: flex;
         flex-direction: column;
        width: 90%;
+       max-width: 325px;
        margin-bottom: 40px;
        box-shadow: 1px 1px 1px 1px whitesmoke;
        margin-left: 2%;
     }
    .griglia_images > li img{
-       width: 90%;
+       width: 81%;
        max-width: 90%;
    }
     
@@ -175,7 +175,7 @@
      .images_act1{
      width: 93%;
      height: 172px;
-     
+     max-width: 400px;
      
      margin-bottom: 20px;
      
@@ -192,7 +192,8 @@
         width: 95%;
     }
     .images_act2 .border{
-        width: 99%;
+        width: 98%;
+        max-width: 400px;
         height: 172px;
         
     }
@@ -210,11 +211,7 @@
         margin-bottom: 20px;
     }
   
-    .images_act4{
-        width: 95%;
-      
-        
-    }
+   
     .images_act4 img{
         width: 99%;
         height: 100px;
@@ -227,7 +224,8 @@
     }
     .images_act5 .border2 {
         height: 185px;
-        width: 99%;
+        width: 98%;
+        max-width: 400px;
     }
     .images_act5 img{
         width: 99%;
