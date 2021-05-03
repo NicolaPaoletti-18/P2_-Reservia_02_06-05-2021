@@ -151,6 +151,7 @@
     }
    .griglia_images > li img{
        width: 90%;
+       max-width: 90%;
    }
     
     .griglia_images .icones{
@@ -162,7 +163,7 @@
     aside{
         width: 100%;
         height: 100%;
-        margin-left: -10px;
+        margin-left: 0px;
         border-radius: 0px 0px 0px 0px;
         
     }
@@ -170,7 +171,7 @@
     .activites{
         width: 100%;
         flex-direction: column;
-        margin-left:-75px;
+        margin-left:0px;
     }
     .h3{
         margin-left: 11px;
@@ -179,7 +180,7 @@
      width: 93%;
      height: 172px;
      
-     margin-left: 17%;
+     
      margin-bottom: 20px;
      
     }
@@ -197,7 +198,7 @@
     .images_act2 .border{
         width: 99%;
         height: 172px;
-        margin-left: 17%;
+        
     }
     .images_act2 .border img{
         width: 99%;
@@ -209,14 +210,14 @@
         width: 100%;
         height: 172px;
         text-align: start;
-        margin-left: 17%;
+        
         margin-bottom: 20px;
     }
   
     .images_act4{
         width: 95%;
       
-        margin-left: 17%;
+        
     }
     .images_act4 img{
         width: 99%;
@@ -226,7 +227,7 @@
     .images_act5{
         width: 95%;
         
-        margin-left: 17%;
+        
         margin-top: 20px;
     }
     .images_act5 .border2 {
