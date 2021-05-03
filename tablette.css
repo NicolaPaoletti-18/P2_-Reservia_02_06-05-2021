@@ -41,9 +41,7 @@
         border-bottom: 2px solid #0065FC;;
         
     }
-   .search{
-       padding-right: 10%;
-   }
+   
    form strong{
        margin-left: 4%;
        margin-right: auto;
@@ -116,12 +114,15 @@ border-radius: 15px 23px 0px 0px;
 
     }
      aside .container p{
-        margin-top: -7px;
+        margin-bottom: 2px;
+    }
+    aside .container strong{
+        margin-top: 5px;
     }
  
     .container > li{
     width: 90%;
-    margin-right: 30px;    
+    margin-right: 20px;    
     margin-left: 20px;
     }
     /*============= HEBERGEMENTS =============*/
@@ -146,7 +147,25 @@ border-radius: 15px 23px 0px 0px;
     }
     /*================= ACTIVITES =================*/
     .activites{
-     margin-left: 20px;
+     margin-left: 5px;
     }
-   
+    .images_act2{
+        width: 20%;
+    }
+    .images_act2 img{
+        width: 145px;
+    }
+   .images_act5{
+       width:20%;
+   }
+   .images_act5 img{
+       width: 145px;
+   }
+    .images_act5 .border2{
+        margin-top: -7px;
+    }
+     /*================= FOOTER =================*/
+     footer{
+         width: 104%;
+     }
 }
