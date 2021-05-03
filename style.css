@@ -115,6 +115,10 @@ nav a:hover{
 .search strong{
     margin-left: auto;
 }
+.search .fas::before{
+    font-size: 0px;
+    position: relative;
+}
 
 form{
     text-align: center;
@@ -198,6 +202,7 @@ form strong{
     border-radius: 50%;
     padding: 5px 5px 5px 5px;
     text-align: center;
+    margin-left: -5px;
 }
 .border1 .fa-money-bill-wave{
     font-size: 19px;
