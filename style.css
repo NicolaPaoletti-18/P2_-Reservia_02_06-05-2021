@@ -341,6 +341,18 @@ aside li img{
     border-radius: 15px 0px 0px 15px ;
     object-fit: cover;
 }
+aside .h3{
+    margin-top: 40px;
+    margin-left: 38px;
+    margin-bottom: -10px;
+    font-size: 20px;
+    
+}
+aside .h3 .fas{
+   display:flex;
+   justify-content: flex-end;
+   margin-top: -20px;
+}
 aside .container p {
     display: flex;
     flex-direction: column;
@@ -373,18 +385,7 @@ aside .container span{
     text-decoration: none;
     color: black;
 }
-aside .h3{
-    margin-top: 40px;
-    margin-left: 38px;
-    margin-bottom: -10px;
-    font-size: 20px;
-    
-}
-aside .h3 .fas{
-   display:flex;
-   justify-content: flex-end;
-   margin-top: -20px;
-}
+
  /*================= ACTIVITES =================*/
 #Marseille .activites{
     display: flex;
@@ -405,11 +406,6 @@ aside .h3 .fas{
     font-family: 'RalewayS';
 }
 
-.activites img{
-    border: 4px solid white;
-    border-radius: 20px 20px 0px 0px ;
-    object-fit: cover;
-}
 
 .images_act1 {
     width: 300px;
@@ -420,10 +416,23 @@ aside .h3 .fas{
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 2px 2px whitesmoke;
 }
+.activites img{
+    border: 4px solid white;
+    border-radius: 20px 20px 0px 0px ;
+    object-fit: cover;
+}
 .images_act1 img{
     width: 100%;
     height: 85%;
     margin:auto auto;
+}
+.images_act2 img{
+    width: 250px;
+    height: 110px;
+}
+.images_act5 img{
+    height: 120px;
+    width: 250px;
 }
 .images_act1 a{
     text-decoration: none;
@@ -440,28 +449,22 @@ aside .h3 .fas{
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 2px 2px whitesmoke;
 }
-.images_act2 img{
-    width: 250px;
-    height: 110px;
-}
-.images_act2 .photo_fort{
-    height: 140px;
-}
+
+
 
 .activites .images_act5 .border2{
     border:4px solid white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 2px 2px whitesmoke;
-    margin-bottom: 30px;
+    
+    margin-bottom: 35px;
+    margin-top: -17px;
 }
 .activites .images_act5 .border2 a{
     text-decoration: none;
     
 }
-.images_act5 img{
-    height: 120px;
-    width: 250px;
-}
+
 /*======================== FOOTER ========================*/
 footer  {
     

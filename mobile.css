@@ -29,15 +29,17 @@
         
 
     }
+    nav .mq{
+        font-size: 0px;
+        margin-right: -10px;
+    }
     nav ul{
         
         text-align: right;
         font-size: 15px;
     }
-    nav .mq{
-        font-size: 0px;
-        margin-right: -10px;
-    }
+   
+  
     .caché{
         width: 100%;
         display: flex;
@@ -63,14 +65,7 @@
         border-bottom: 2px solid #0065FC;;
         
     }
-    .h_1{
-        width: auto;
-        
-        
-    }
-    .h_1 li{
-        padding: 10px 5px ;
-    }
+   
     #search{
         width: 260px;
     }
@@ -87,6 +82,14 @@
        margin: auto;
        margin-left: 10px;
         font-size: 20px;
+    }
+    .h_1{
+        width: auto;
+        
+        
+    }
+    .h_1 li{
+        padding: 10px 5px ;
     }
     .h_1 p{
         width: 100%;
@@ -127,6 +130,7 @@
     .container > li{
         width: 90%;
         max-width: 325px;
+        margin-left: auto;
     }
 
 /*============= HEBERGEMENTS =============*/
@@ -134,14 +138,15 @@
    width: 100%;
    height: auto;
    background-color: white;
+   margin-left: -26px;
     }
     .bloc_images > .h3{
-        margin-left: -21px;
+        margin-left: 0px;
     }
     .bloc_images .griglia_images{
     width: 100%;
     display: inline-block;
-    margin-left: -30px;
+    margin-left: auto;
     }
     .griglia_images >li{
         display: flex;
@@ -154,6 +159,7 @@
     }
    .griglia_images > li img{
        width: 81%;
+       height: 105px;
        max-width: 90%;
    }
     
@@ -168,13 +174,14 @@
     .activites{
         width: 100%;
         flex-direction: column;
+        margin-left: auto;
         
     }
     .h3{
-        margin-left: 11px;
+        margin-left: 7px;
     }
      .images_act1{
-     width: 93%;
+     width: 90%;
      height: 172px;
      max-width: 400px;
      
@@ -183,7 +190,7 @@
     }
     .images_act1 img{
         width: 99%;
-        height: 100px;
+        height: 105px;
         max-width: 400px;
     }
     .images_act1 img p{
@@ -193,14 +200,14 @@
         width: 95%;
     }
     .images_act2 .border{
-        width: 98%;
+        width: 96%;
         max-width: 400px;
         height: 172px;
         
     }
     .images_act2 .border img{
         width: 99%;
-        height: 100px;
+        height: 105px;
         text-align: start;
         max-width: 400px;
     }
@@ -215,7 +222,7 @@
    
     .images_act4 img{
         width: 99%;
-        height: 100px;
+        height: 105px;
         max-width: 400px;
     }
     .images_act5{
@@ -225,12 +232,12 @@
     }
     .images_act5 .border2 {
         height: 185px;
-        width: 98%;
+        width: 96%;
         max-width: 400px;
     }
     .images_act5 img{
         width: 99%;
-        height: 100px;
+        height: 105px;
         text-align: center;
         max-width: 400px;
     }
