@@ -5,6 +5,7 @@
         display: block;
     }
     /*======================== HEADER ========================*/
+    /*========= NAVIGATION =========*/
     nav {
         width: 100%;
         
@@ -154,6 +155,12 @@ border-radius: 15px 23px 0px 0px;
     }
     .images_act2 img{
         width: 145px;
+    }
+    .images_act2 .photo_fort{
+        height: 160px;
+    }
+    .activites .images_act2 .border{
+        margin-bottom: 3px;
     }
    .images_act5{
        width:20%;

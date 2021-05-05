@@ -404,6 +404,7 @@ aside .container span{
 .activites p{
     margin-left: 10px;
     font-family: 'RalewayS';
+    margin-bottom: 15px;
 }
 
 
@@ -429,6 +430,9 @@ aside .container span{
 .images_act2 img{
     width: 250px;
     height: 110px;
+}
+.images_act2 .photo_fort{
+    height: 142px;
 }
 .images_act5 img{
     height: 120px;
@@ -457,8 +461,11 @@ aside .container span{
     border-radius: 20px 20px 20px 20px;
     box-shadow: 2px 2px 2px 2px whitesmoke;
     
-    margin-bottom: 35px;
-    margin-top: -17px;
+    margin-bottom: 26px;
+    
+}
+.images_act5{
+    margin-top: 6px;
 }
 .activites .images_act5 .border2 a{
     text-decoration: none;
