@@ -19,7 +19,7 @@
         margin-left: 0px;
         width: 80%;
     }
-    h3{
+    .h4{
         font-size: 13px;
     }
     .titolo{
@@ -124,10 +124,7 @@
     .h_1 a{
         margin-bottom: 10px;
     }
-  
-    
-    
-    
+
     /*======================== BODY ========================*/
     section {
         width: 100%;
@@ -140,7 +137,6 @@
         height: 100%;
         margin-left: -18px;
         border-radius: 0px 0px 0px 0px;
-        
     }
     aside .h3 .fas{
         margin-right: 40px;
@@ -162,10 +158,10 @@
 
 /*============= HEBERGEMENTS =============*/
     .bloc_images{
-   width: 100%;
-   height: auto;
-   background-color: white;
-   margin-left: -26px;
+      width: 100%;
+     height: auto;
+     background-color: white;
+     margin-left: -26px;
     }
     .bloc_images > .h3{
         margin-left: 0px;
@@ -198,9 +194,7 @@
     .griglia_images a{
         text-decoration: none;
     }
-   
-    
-   
+
     /*================= ACTIVITES =================*/
     .activites{
         width: 100%;
@@ -218,29 +212,24 @@
      width: 325px;
      height: 172px;
      max-width: 400px;
-     
-     margin-bottom: 20px;
-     
+     margin-bottom: 20px; 
     }
     .images_act2{
         width: 95%;
     }
     .images_act5{
         width: 95%;
-        
         margin-top: 20px;
     }
     .images_act2 .border{
         width: 96%;
         max-width: 400px;
         height: 172px;
-        
     }
     .images_act2 .border1{
         width: 100%;
         height: 172px;
         text-align: start;
-        
         margin-bottom: 20px;
     }
     .images_act5 .border2 {
