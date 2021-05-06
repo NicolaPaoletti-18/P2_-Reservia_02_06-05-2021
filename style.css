@@ -18,11 +18,7 @@ html body{
 header{
     align-items: start;
 }
-.bloc_1{
-    background-color: white;
-    margin: auto;
-    
-}
+
 .titre{
   margin-top: auto;
   margin-bottom: 0px;
@@ -46,42 +42,48 @@ h3{
 }
 .logo{
     height: 50px;
+    margin-top: 23px;
 }
 /*========= NAVIGATION =========*/
 nav {
     display: flex;
     justify-content:space-between;
+    margin:auto;
     
 }
-nav ul{
-display: flex;
-list-style-type: none;
-}
-nav li{
-margin:auto;
-}
-nav li a{
-    margin: 35px;
-    text-decoration: none;
-}
 
+nav .mobile{
+    display: flex;
+    margin-left: 61%;
+    justify-content: space-between;
+}
+nav .mobile a{
+    margin-top: -2px;
+  
+   padding-top: 13px;
+   margin-right: 44px;
+   margin-left: 25px;
+}
+   
 
 nav   a{
-    color: grey;
+    color: #C8C8C8;
     text-decoration: none;
     font-size: 15px;
+   margin-top: 10px;
 }
+
+
 nav strong{
     color: #0065fc;
+   
 }
-nav a:hover{
+nav .mobile> a:hover{
     color:#0065fc;
     border-top: 1px solid #0065fc;
-    padding-top: 20px;
+    padding-top: 10px;
 }
-.caché{
-    display: none;
-}
+
 
 .h3{
     font-size: 20px;
@@ -128,7 +130,7 @@ form{
 }
 
 form strong{
-    margin-left: 0;
+    margin-left: 13px;
     margin-right:auto;
     font-family: 'RalewayS';
 }
@@ -151,9 +153,6 @@ form strong{
 
 
 
-.Filtres{
-    margin-top: 10px;
-}    
 
 .h_1  {
     display: flex;
@@ -242,7 +241,7 @@ section{
 }
 
 
-.griglia_images >li{
+.griglia_images >a li{
     border: 4px solid white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 1px 1px 1px rgb(215, 215, 215);
@@ -318,7 +317,7 @@ aside{
     padding-right: 25px;
 
 }
-aside li{
+aside > .container  li{
     border: 4px solid white;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 1px 1px 1px 1px rgb(215, 215, 215);
@@ -331,7 +330,7 @@ aside li{
     background-color:white;
 }
 
-aside li img{ 
+aside> .container li img{ 
     padding-right: 10px;
     margin-left:auto;
     width: 100px;
@@ -353,16 +352,17 @@ aside .h3 .fas{
    justify-content: flex-end;
    margin-top: -20px;
 }
-aside .container p {
+aside .container  p {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
     font-size: 13px;
     font-family: 'RalewayS';
     width: 120px;
+    text-decoration: none;
 }
 
-aside .container{
+aside.container{
     margin-left: -15px;
 }
 aside .container .fas{
@@ -372,7 +372,7 @@ aside .container .fas{
     margin-top: 20px;
    
 }
-aside .container .grey{
+aside.container .grey{
     font-size: 10px;
     color:rgb(191, 190, 190);
 }
@@ -381,17 +381,13 @@ aside .container span{
     margin-left: 75px;
     font-family: "RalewayS";
 }
- aside ul li a {
+aside ul li a {
     text-decoration: none;
     color: black;
 }
 
  /*================= ACTIVITES =================*/
-#Marseille .activites{
-    display: flex;
-}
-
-
+ 
 .activites{
     border: 1px solid white;
     width: 100%;
@@ -401,13 +397,15 @@ aside .container span{
     margin-right: 0px;
     align-items:flex-start;
 }
-.activites p{
+.activites a{
+    text-decoration: none;
+}
+.activites  p strong{
     margin-left: 10px;
     font-family: 'RalewayS';
     margin-bottom: 15px;
+    
 }
-
-
 .images_act1 {
     width: 300px;
     height: 390px;
@@ -438,12 +436,7 @@ aside .container span{
     height: 120px;
     width: 250px;
 }
-.images_act1 a{
-    text-decoration: none;
-}
-.images_act2 .border a{
-    text-decoration: none;
-}
+
 .images_act2{
     margin-right: 20px;
 }
@@ -460,8 +453,8 @@ aside .container span{
     border:4px solid white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 2px 2px 2px 2px whitesmoke;
-    
-    margin-bottom: 26px;
+    margin-top: -8px;
+    margin-bottom: 42px;
     
 }
 .images_act5{
@@ -479,7 +472,7 @@ footer  {
     background-color:#F2F2F2 ;
     text-decoration: none;
 }
-footer .Apropos{
+footer .apropos{
     display: flex;
     justify-content: space-between;
     margin-right: 400px;
@@ -487,13 +480,13 @@ footer .Apropos{
     margin-left: 20px;
 }
 
- footer .Apropos ul li a{
+ footer .apropos ul li a{
     text-decoration: none;
     color: black;
     margin-bottom: 10px;
     font-size:small; 
 }
 
-.Apropos li{
+.apropos li{
     display: flex;
 }
