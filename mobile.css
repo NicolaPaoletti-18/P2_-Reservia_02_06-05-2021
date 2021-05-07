@@ -145,15 +145,15 @@
         margin-left: 16px;
     }
     
-    .container{
+    aside .container{
         flex-direction: column;
         padding-left: 20px;
         width: 100%;
     }
-    .container > li{
+    aside  .container > li{
         width: 90%;
         max-width: 325px;
-        margin-left: auto;
+        margin-left: 0px;
     }
 
 /*============= HEBERGEMENTS =============*/

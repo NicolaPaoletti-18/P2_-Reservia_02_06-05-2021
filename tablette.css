@@ -164,26 +164,27 @@
     /*================= ACTIVITES =================*/
     .activites{
         margin-left: auto;
+        display:block ruby;
+        margin-top: -17px;
     }
-    .activites a{
-     margin-left: 5px;
-     margin-bottom: 30px;
-    }
+    
     .activites .images_act1{
-        width: 93%;
+        width: 26%;
+        margin-bottom: -21px;
     }
     .images_act2{
         width: 20%;
+        margin-right:16px ;
     }
      .images_act2 img{
         width: 145px;
     }
     
     .images_act2 .photo_fort{
-        height: 160px;
+        height: 143px;
     }
     .activites >.images_act2 .border{
-    margin-top: -19px;
+    margin-top: 18px;
     padding-top: 0px;
     margin-bottom: 2px;
     }
@@ -195,11 +196,12 @@
        width: 145px;
    }
     .activites > .images_act5 .border2{
-        margin-top: 12px;
+        margin-top: 35px;
         margin-bottom: -13px;
     }
      /*================= FOOTER =================*/
      footer{
          width: 104%;
+         margin-top: 30px;
      }
 }
