@@ -112,17 +112,14 @@
         width: 100%;
        border-radius: 15px 20px 0px 0px;   
     }
-    aside .container >  li .fas{
-        margin-top: -10px;
-        margin-bottom: 8px;
-    }
+    
     aside  ul li a{
         display: inline-block;
 
     }
-     aside .container p{
+     aside .container  p{
         margin-bottom: 2px;
-        margin-left: 05px;
+        margin-left: 5px;
     }
     aside .container strong{
         margin-top: 5px;
@@ -134,11 +131,14 @@
     margin-right: 30px;    
     margin-left: 20px;
     }
-    aside .icones{
+    aside> .container .icones{
         margin-left: 8px;
         margin-top: -14px;
     }
-
+    aside .container >  li .fas{
+        margin-top: -10px;
+        margin-bottom: 9px;
+    }
   
     /*============= HEBERGEMENTS =============*/
     .bloc_images{
@@ -161,6 +161,9 @@
     }
     .griglia_images a li img{
         width: 100%;
+    }
+    .griglia_images .fas{
+        margin-left: -4px;
     }
     /*================= ACTIVITES =================*/
     .activites{
@@ -204,5 +207,8 @@
      footer{
          width: 104%;
          margin-top: 30px;
+     }
+     footer .apropos{
+         width: 80%;
      }
 }

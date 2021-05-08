@@ -117,6 +117,7 @@ nav .mobile> a:hover{
     align-items: center;
     background-color: #0065FC ;
     width: 110px;
+    height: 41px;
     border-radius: 0px 10px 10px 0px;
 }
 .search strong{
@@ -245,7 +246,7 @@ section{
 }
 
 
-.griglia_images >a li{
+.griglia_images > li{
     border: 4px solid white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 1px 1px 1px rgb(215, 215, 215);
@@ -296,7 +297,7 @@ section{
 .griglia_images .fas{
     color: #0065FC;
     font-size: 10px;
-    margin-left: -4px;
+    margin-left: 0px;
 }
 .griglia_images .grey{
     font-size: 10px;
@@ -357,6 +358,10 @@ aside .h3 .fas{
    justify-content: flex-end;
    margin-top: -20px;
 }
+aside ul  a {
+    text-decoration: none;
+    color: black;
+}
 aside .container  p {
     display: flex;
     flex-direction: column;
@@ -370,10 +375,13 @@ aside .container  p {
 aside.container{
     margin-left: -15px;
 }
+aside .container .icones {
+    margin-left: 114px;
+}
 aside .container .icones .fas{
     font-size: 10px;
     color: #0065FC;
-    margin-left: -3px;
+    margin-left: -4px;
     margin-top: 20px;
    
 }
@@ -385,10 +393,6 @@ aside .container span{
     margin-top:-15px;
     margin-left: 75px;
     font-family: "RalewayS";
-}
-aside ul li a {
-    text-decoration: none;
-    color: black;
 }
 
  /*================= ACTIVITES =================*/
