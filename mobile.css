@@ -168,9 +168,12 @@
     }
    
     .griglia_images .icones{
-        margin-right: 338px;
         display: flex;
-        margin-top: auto;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    .griglia_images .fas{
+        margin-left: 0px;
     }
     .bloc_images .griglia_images{
     width: 100%;
@@ -187,9 +190,9 @@
        margin-left: 2%;
     }
    .griglia_images >  li img{
-       width: 100%;
+       width: 325px;
        height: 105px;
-       max-width: 100%;
+       max-width: 325px;
    }
     .griglia_images a{
         text-decoration: none;

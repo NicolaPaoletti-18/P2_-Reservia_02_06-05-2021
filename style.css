@@ -297,7 +297,7 @@ section{
 .griglia_images .fas{
     color: #0065FC;
     font-size: 10px;
-    margin-left: 0px;
+    margin-left: -4px;
 }
 .griglia_images .grey{
     font-size: 10px;
