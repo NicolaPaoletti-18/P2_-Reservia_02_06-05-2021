@@ -193,9 +193,9 @@
         height: 143px;
     }
     .activites >.images_act2 .border{
-       margin-top: 8px;
+       margin-top: 2px;
        padding-top: 0px;
-       margin-bottom: 2px;
+       margin-bottom: 16px;
     }
    .images_act5{
        width:20%;
@@ -206,7 +206,7 @@
    }
     .activites > .images_act5 .border2{
         margin-top: 35px;
-        margin-bottom: -13px;
+        margin-bottom: -20px;
     }
      /*================= FOOTER =================*/
      footer{
