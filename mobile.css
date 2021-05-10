@@ -25,6 +25,9 @@
     .titolo{
         font-size: 12px;
     }
+    .h3{
+        margin-left: 7px;
+    }
     /*========= NAVIGATION =========*/
     nav {
         width: 100%;
@@ -131,11 +134,14 @@
        height: auto;
        background-color: white;
        margin-left: -26px;
+       margin-bottom: -30px;
     }
     .bloc_images > .h3{
         margin-left: 0px;
     }
-   
+   .bloc_images p{
+       margin-left: 3px;
+   }
     .griglia_images .icones{
         display: flex;
         margin-top: 5px;
@@ -148,6 +154,7 @@
         width: 100%;
         display: inline-block;
         margin-left: auto;
+        margin-bottom: -33px;
     }
     .griglia_images >  li{
         display: flex;
@@ -171,20 +178,34 @@
     .activites{
         width: 100%;
         flex-direction: column;
-        margin-left: auto;
+        margin-left: 8px;
         
     }
-    .h3{
-        margin-left: 7px;
+    .activites >.images_act2 .border{
+        width: 96%;
+        max-width: 325px;
+        height: 165px;
+        margin-bottom: 30px;
+    }
+     .activites> .images_act2 .border1{
+        width: 100%;
+        height: 165px;
+        text-align: start;
+        margin-bottom: 20px;
+    }
+    .activites> .images_act5 .border2 {
+        height: 165px;
+        width: 96%;
+        max-width: 325px;
     }
     .images_act1 img p{
         text-align: center;
     }
      .images_act1{
         width: 325px;
-        height: 172px;
+        height: 165px;
         max-width: 400px;
-        margin-bottom: 20px; 
+        margin-bottom: 30px; 
     }
     .images_act2{
         width: 95%;
@@ -192,22 +213,6 @@
     .images_act5{
         width: 95%;
         margin-top: 20px;
-    }
-    .images_act2 .border{
-        width: 96%;
-        max-width: 340px;
-        height: 172px;
-    }
-    .images_act2 .border1{
-        width: 100%;
-        height: 172px;
-        text-align: start;
-        margin-bottom: 20px;
-    }
-    .images_act5 .border2 {
-        height: 185px;
-        width: 96%;
-        max-width: 340px;
     }
     .images_act1 img{
         width: 99%;
@@ -219,32 +224,24 @@
         width: 99%;
         height: 105px;
         text-align: start;
-        max-width: 340px;
+        max-width: 325px;
     }
-  
-  
-   
-    .images_act4 img{
-        width: 99%;
-        height: 105px;
-        max-width: 400px;
-    }
-  
-    
     .images_act5 img{
         width: 99%;
         height: 105px;
         text-align: center;
-        max-width: 340px;
+        max-width: 325px;
     }
     /*================= FOOTER =================*/
     footer{
-        width: 100%;
+        width: 106%;
+        margin-left: -10px;
         
     }
     footer .apropos {
         flex-direction: column;
         width: 100%;
+        margin-left: auto;
     }
 
 
