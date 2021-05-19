@@ -125,7 +125,7 @@
     aside  .container > li{
         width: 90%;
         max-width: 325px;
-        margin-left: 0px;
+        margin-left: 3px;
     }
 
 /*============= HEBERGEMENTS =============*/
@@ -163,7 +163,7 @@
         max-width: 325px;
         margin-bottom: 40px;
         box-shadow: 1px 1px 1px 1px whitesmoke;
-        margin-left: 2%;
+        margin-left: 3%;
     }
    .griglia_images >  li img{
        width: 325px;
@@ -178,7 +178,7 @@
     .activites{
         width: 100%;
         flex-direction: column;
-        margin-left: 8px;
+        margin-left: 1px;
         
     }
     .activites >.images_act2 .border{
@@ -234,13 +234,10 @@
     }
     /*================= FOOTER =================*/
     footer{
-        width: 106%;
-        margin-left: -6px;
-        
+        width: 100%;
     }
     footer .apropos {
         flex-direction: column;
-        width: 100%;
         margin-left: 20px;
     }
 
