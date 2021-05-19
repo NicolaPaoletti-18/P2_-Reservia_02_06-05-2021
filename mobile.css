@@ -235,13 +235,13 @@
     /*================= FOOTER =================*/
     footer{
         width: 106%;
-        margin-left: -10px;
+        margin-left: -6px;
         
     }
     footer .apropos {
         flex-direction: column;
         width: 100%;
-        margin-left: auto;
+        margin-left: 20px;
     }
 
 
