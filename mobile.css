@@ -186,6 +186,7 @@
         max-width: 325px;
         height: 165px;
         margin-bottom: 30px;
+        border: 4px solid white;
     }
      .activites> .images_act2 .border1{
         width: 100%;
@@ -197,6 +198,7 @@
         height: 165px;
         width: 96%;
         max-width: 325px;
+        border: 4px solid white;
     }
     .images_act1 img p{
         text-align: center;
@@ -206,6 +208,7 @@
         height: 165px;
         max-width: 400px;
         margin-bottom: 30px; 
+        border: 4px solid white;
     }
     .images_act2{
         width: 95%;

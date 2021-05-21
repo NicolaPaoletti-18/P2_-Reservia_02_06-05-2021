@@ -427,7 +427,7 @@ aside .container span{
     margin-left: 8px;
 }
 .activites >.images_act5 .border2 p{
-    margin-bottom: 14px;
+    margin-bottom: 13px;
     margin-left: 8px;
 }
 .images_act1 {
@@ -435,12 +435,12 @@ aside .container span{
     height: 390px;
     overflow:hidden;
     margin-right: 20px;
-    border: 4px solid white;
+    border: 0px solid white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
 }
 .activites img{
-    border: 4px solid white;
+    border: 0px solid white;
     border-radius: 10px 10px 0px 0px ;
     object-fit: cover;
 }
@@ -465,18 +465,20 @@ aside .container span{
     margin-right: 20px;
 }
 .activites .images_act2 .border{
-    border: 4px solid white ;
-    margin-bottom:19px;
+    border: 0px solid white ;
+    margin-bottom:31px;
+    padding-bottom: 4px;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
 }
 
 .activites .images_act5 .border2{
-    border:4px solid white;
+    border:0px solid white;
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 15%);
-    margin-top: -8px;
-    margin-bottom: 42px;
+    margin-top: -4px;
+    margin-bottom: 34px;
+    padding-bottom: 14px;
     
 }
 .images_act5{
